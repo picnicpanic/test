@@ -1,0 +1,9 @@
+    1  git remote add origin https://github.com/picnicpanic/test.git
+    2  git remote -v
+    3  echo "Github is awesome" >> a.txt
+    4  git add .
+    5  git status
+    6  git diff --staged
+    7  git commit -m "added newline to a.txt"
+    8  git push origin master
+    9  history > question3.txt
