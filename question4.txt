@@ -1,0 +1,15 @@
+    1  echo "start here for question 4"
+    2  echo "file edit for question 4" >> a1.txt
+    3  git status
+    4  git add .
+    5  git status
+    6  git checkout HEAD a1.txt
+    7  git status
+    8  echo "file edit for question 4 part 3" >> a1.txt
+    9  git status
+   10  git add .
+   11  git commit -m "adding changes to a1.txt for question 4"
+   12  git status
+   13  git log --oneline --decorate
+   14  git reset --hard HEAD~1
+
