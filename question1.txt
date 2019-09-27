@@ -1,0 +1,11 @@
+    1  cd ~/desktop/nycdsa/github
+    2  mkdir test
+    3  cd test
+    4  git init
+    5  echo "Git is cdcgood" > a.txt
+    6  git status
+    7  git add a.txt
+    8  git status
+    9  git commit -m "add file a.txt"
+   10  git status
+   11  history > question1.txt
