@@ -1,0 +1,14 @@
+    1  mkdir subtest
+    2  cd subtest
+    3  echo "anything" > b.text
+    4  cd ..
+    5  echo "something" > a1.txt
+    6  echo "what thing" > a2.txt
+    7  git status
+    8  git add .
+    9  git status
+   10  git commit -m "added a1 a2 subtest"
+   11  git status
+   12  git log --oneline --decorate
+   13  history > question 2
+   14  history > question2.txt
